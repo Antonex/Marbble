@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    padding: 2em 0 4em 0;
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav > .sign-in-btn {
+    margin: 0 0 0 5em;
+    color: #FCCF5A;
+    background: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+nav > .title {
+    color: #FCCF5A;
+    margin: 0 1em 0 0;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.site-intro {
+    background-color: #FCCF5A;
+    padding: 2em;
+}
+
+.site-intro > .intro-section > .intro > .slogan {
+    font-size: 6em;
+}
+
+.site-intro > .intro-section > .intro > .para {
+    font-family: 'Lato', sans-serif;
+    margin: 2.5em 0 0 0 ;
+    font-size: 1.5em;
+}
+
+.site-intro > .intro-section > .intro > .get-started-btn {
+    padding: 2em 3em;
+    font-size: 1em;
+    margin: 2.5em 0 0 0;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.site-intro > .intro-section > .intro {
+    max-width: 33%;
+}
+
+.site-intro > .intro-section > .side-card {
+    margin-top: 5em;
+    background-color: #000;
+    color: #fff;
+    padding: 3em 3em 1em 3em;
+    max-width: 23%;
+    z-index: 3;
+}
+
+.site-intro > .intro-section > .side-card > .para {
+    font-size: 1.5em;
+}
+
+.site-intro > .intro-section > .side-card > h1 {
+    font-size: 3em;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.site-intro > .intro-section > .side-card > .starting-price {
+    font-size: 2em;
+}
+
+.site-intro > .intro-section > .side-card > .billing {
+    font: 0.7em;
+    opacity: 0.6;
+    margin: 0 0 2em 0;
+}
+
+.site-intro > .intro-section > .side-card > .domain-btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-bottom: 0.3em solid #FCCF5A;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.site-intro .blue-box {
+    height: 14em;
+    width: 10em;
+    background-color: #5463FF;
+    z-index: 1;
+    position: absolute;
+    top: 55%;
+    left: 82%;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-intro >.intro-end {
+    margin: 4em 0 0 75.8em;
+}
+
+.site-intro > .intro-end > .hosting-para {
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin: 0 0 0.5em 0;
+}
+
+.site-intro > .intro-end > .para-2 {
+    max-width: 60%;
+    font-size: 1em;
+    font-family: 'PT Sans';
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10em;
+    text-align: center;
+    width: 100%;
+}
+
+.feature-list > h1 {
+    font-size: 4em;
+    max-width: 60%;
+}
+
+.feature-list > .features {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em 5em 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.feature-list > .features > .feature-box {
+    border: 3px solid #FCCF5A;
+    border-bottom: #000 10px solid;
+    padding: 2em;
+    text-align: left;
+    width: 20%;
+}
+
+.feature-list > .features > .feature-box > .icon-box > i{
+    font-size: 2em;
+    background-color: #FCCF5A;
+    border-radius: 50%;
+    padding: 0.2em;
+}
+
+.feature-list > .features > .feature-box > .icon-box {
+    padding: 0 0 1em 0;
+}
+
+.feature-list > .features > .feature-box > .feature-name {
+    font-size: 2em;
+}
+
+.feature-list > .features > .feature-box > .feature-detail {
+    font-size: 1em;
+    opacity: 0.5;
+    padding: 2em 0 0 0;
+}
+
+.testimonial {
+    background-color: #5463FF;
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial > h1 {
+    color: #fff;
+    font-size: 4em;
+    margin: 0 0 1em 0;
+    font-family: 'PT sans', sans-serif;
+}
+
+.testimonial > h3 {
+    font-size: 2em;
+    font-family: 'PT sans', sans-serif;
+    color: #fff;
+    margin: 0 0 1em 0;
+}
+
+.testimonial > p {
+    font: 1em;
+    color: #fff;
+    opacity: 0.6;
+    max-width: 24%;
+    margin: 0 0 1.5em 0;
+    
+}
+
+.testimonial > .the-numbers {
+    display: flex;
+    min-width: 40%;
+    justify-content: space-evenly;
+    padding: 2em 0 0 0;
+}
+
+.testimonial > .the-numbers > .user-num > p {
+    font-size: 1.5em;
+    color: #FCCF5A;
+}
+
+.testimonial > .the-numbers > .user-num > h1 {
+    font-size: 3em;
+    color: #FCCF5A;
+}
+
+.testimonial > .the-numbers > .hosted-num > p {
+    font-size: 1.5em;
+    color: #FCCF5A;
+}
+
+.testimonial > .the-numbers > .hosted-num > h1 {
+    font-size: 3em;
+    color: #FCCF5A;
+}
+
+.testimonial > .the-numbers > .vert-line {
+    border: 1px solid #ffffff;
+}
